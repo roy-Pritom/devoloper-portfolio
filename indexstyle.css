@@ -4,7 +4,7 @@
 font-size: 45px;
 }
 *{
-    margin:0px;
+    margin:0px; 
     font-family: 'Open Sans';
 }
 .primarycolor{
@@ -22,7 +22,7 @@ nav ul{
 }
 nav li{
     margin-left: 41px;
-    list-style: none;
+    ;list-style: none;
 }
 .btn-primary{
     background: #FD6E0A;
@@ -63,7 +63,7 @@ border: none;
 }
 /* main */
 main{
-    max-width: 1140px;
+    max-width: 1140px; 
     margin: 0px auto;
    
 }
@@ -71,9 +71,9 @@ main{
 .about{
     background: #FFF8F3;
     margin-top: 130px;
-
+  
      border-radius: 10px;
-     padding: 131px 157px;
+     padding: 130px 150px;
 }
 .section-tittle{
     font-weight: 700;
@@ -107,6 +107,7 @@ margin-top: 30px;
 }
 .what-i-do{
     margin-top: 130px;
+    text-align: center;
     
 }
 .section-tittle{
@@ -122,7 +123,7 @@ margin-top: 30px;
 .description{
     font-size:18px;
    font-weight:200px;
-
+  
 margin: 0 200px;
 margin-bottom: 50px;
 }
@@ -147,6 +148,7 @@ padding: 0 30px;
 }
 .resume-box{
     display: flex;
+     
 }
 .resume-tittle{
     font-weight: 700;
@@ -158,7 +160,9 @@ margin-top: 113px;
 font-size: 25px;
 margin-top: 30px;
 }
-
+#para{
+    text-align: center;
+}
    
 .sub-tittle{
     font-weight: 600;
@@ -171,8 +175,8 @@ margin-top: 30px;
     font-size: 16px;
     color: #757575;
     margin-top: 20px;
-    /* margin-left: 230px;
-    text-align: center; */
+     /* margin-left: 230px;
+    text-align: center;  */
     width: 511px;
 height: 84px;
 margin-left:0px;
@@ -184,124 +188,22 @@ margin-bottom: 30px;
         text-align: center;
         margin-bottom: 20px;
 }
-/* Contact style */
-.contact{
+/* contact style */
+.contact-box{
     display: flex;
     gap: 100px;
-    background: #FFF8F3;
-
-    
-    margin-left: 0px;
-  margin-right: 0px;
-       
-
-    
+    background-color: red;
+    padding: 130px 200px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
 }
-/* .contact-form input,textarea{
-    margin-top: 24px;
-    border: 0;
-     padding:18px 30px; */
-
 input{
-    height: 64px;
-   
-}
- input{
+    display:block;
     margin-top: 24px;
-    display: block;
-    padding-top: 18px ;
-    padding-left: 30px;
-height: 64px;
-width: 100%;
+    padding-left: 15px;
 }
 textarea{
-     width: 100%; 
- height: 140px;
-margin-top: 24px;
-padding-top: 18px ;
-   padding-left: 30px;
-   width: 100%;
-} 
-a{
- margin-right: 20px;
- border: none;
-}
-.hide{
-    display: none;
-}
-@media screen and (max-width:576px) {
-    .header{
-        background-image:none;
-    }
-    
-    nav,.banner,.skill,.resume-box,.about-info-container,.contact{
-        flex-direction:column;
-        padding:10px 15px;
-        gap: 20px;
-    }
-    .banner{
-        margin: 0 20px;
-      
-    }
-    .banner img{
-        width: 100%;
-    }
-    .nav-tittle{
-        margin-left: 10px;
-    }
-    nav{
-        margin: 0;
-    }
-    nav ul{
-        flex-direction: column;
-        align-items:flex-start;
-        gap: 20px;
-        margin-left:0px;
-        padding-left: 20px;
-    }
-    nav li{
-        margin: 0;
-    }
-    .description{
-        width: 350px;
-    }
-    .skill-box{
-        margin-top: 20px;
-    }
-    .about{
-        padding:20px;
-    }
-    input,textarea {
-        padding:0 0 0 5px;
-    }
-   
-}
-@media  screen and (min-width:577px) and (max-width:992px) {
-    .skill,.about-info-container,.contact{
-        padding:10px 15px;
-        gap: 20px;
-    }
-    .about{
-        padding:0px;
-       
-    }
-    input,textarea {
-        padding:0 0 0 5px;
-        width: 70%;
-    }
-    .contact{
-        flex-direction: column;
-        width: 100%;
-    }
-    .resume-box{
-        gap: 0;
-       
-        padding: 10px 15px;
-    }
-    .description{
-        width:300px;
-    }
-    .skill-box{
-        margin-top: 20px;
-    }
+    margin-top: 24px;
+    padding-left: 15px;
 }

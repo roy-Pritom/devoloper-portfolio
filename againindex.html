@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .contact{
+            background-color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="indexstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header ">
+    <header class="header">
         <nav>
             <h1 class="nav-tittle">Ma<span class="primarycolor">r</span>y</h1>
             <ul>
@@ -58,7 +63,8 @@
             <h3 class="section-tittle">
                 What I Do
             </h3>
-            <p class="description">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+            <div id="para">
+            <p class="description">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p></div>
             <div class="skill">
                 <div class="skill-box">
                     <img src="images/icons/js.png" alt="">
@@ -83,7 +89,7 @@
             </div>
 
         </section>
-        <section class="resume ">
+        <section class="resume">
             <h3 class="section-tittle">
                 A summary of My Resume
             </h3>
@@ -128,34 +134,33 @@
                 <button class="btn-primary">Download CV</button>
                </div>
         </section>
-        <!-- contact section -->
-        <section class="contact-box">
-            <div class="contact">
-                <div class="contect-element">
-                       <h1 class="tittle">Lets Connect</h1>
-                       <p class="description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
-                       <a href="">
-                        <img src="images/icons/facebook.png" alt="">
-                    </a>
-                       <a href="">
-                        <img src="images/icons/twitter.png" alt="">
-                    </a>
-                       <a href="">
-                        <img src="images/icons/insta.png" alt="">
-                    </a>
-                </div>
-                
-                <div class="contact-form">
-                    <h1 class="tittle"> Let’s Message me</h1>
-                    <form action="">
-                        <input type="text" placeholder="Your name">
-                        <input type="email" placeholder=" Your email">
-                        <textarea name="" id="" cols="25" rows="6" placeholder="Message"></textarea>
-                          <input  class="btn-primary"type="submit" value="Submit">
-                    </form>
-                </div>
-             </div> 
-        </section>
-    </main>
+        
+        <div class="contact-box">
+            <div class="contect-element">
+                <h1 class="tittle">Lets Connect</h1>
+                <p class="description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <a href="">
+                 <img src="images/icons/facebook.png" alt="">
+             </a>
+                <a href="">
+                 <img src="images/icons/twitter.png" alt="">
+             </a>
+                <a href="">
+                 <img src="images/icons/insta.png" alt="">
+             </a>
+         </div>
+         <div class="contact-form">
+            <h1 class="tittle"> Let’s Message me</h1>
+            <form action="">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder=" Your email">
+                <textarea name="" id="" cols="25" rows="6" placeholder="Message"></textarea>
+                  <input  class="btn-primary"type="submit" value="Submit">
+            </form>
+           </div>
+         
+        </div>
+   </main>
+
 </body>
 </html>
